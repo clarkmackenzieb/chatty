@@ -1,7 +1,12 @@
 /* Space out content a bit */
+*{
+  font-family: 'Fredoka One', cursive;
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-image: url("http://thecatapi.com/api/images/get?api_key=MjI1OTkx&format=src&type=gif")
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -10,11 +15,16 @@ body {
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+  
 }
 
+
+.text-magenta {
+  color: magenta;
+}
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  /* border-bottom: 1px solid #e5e5e5; */
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -76,4 +86,30 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.black-background {
+  background-color: #9E61F8;
+}
+
+.font-heavy {
+  font-weight: bold;
+}
+
+.cat-avatar {
+  height: auto;
+  width: 50px;
+}
+
+.messages {
+  height: auto;
+  padding-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
